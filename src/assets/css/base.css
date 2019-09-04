@@ -1,0 +1,31 @@
+ @import "./normalize.css";
+
+ 
+ *,*::before,*::after{
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+ .clear-fix:after{
+ 	display: block;
+ 	content: "";
+ 	clear: both;
+ 	width: 0;
+ 	height: 0;
+ 	visibility: hidden;
+ }
+ .clear-fix{
+ 	zoom: 1;
+ }
+ body{
+ 	width: 100vw;
+ }
+ a{
+ 	text-decoration: none;
+ }
+ input,button{
+ 	outline: none;
+ }
+ ul,li{
+ 	list-style-type: none;
+ }
